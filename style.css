@@ -1,0 +1,138 @@
+body{
+	background-color: #ccccff;
+	margin: 0;
+	overflow-y: hidden;
+	animation: sky 5.5s 2s forwards;
+}
+
+@keyframes sky{
+	50%{
+		background-color:#ffd700;
+	}
+	650%{
+		background-color:#ffb90f;
+	}
+	85%{
+		background-color:#b39800;
+	}
+	100%{
+		background-color:#68228b;
+	}
+}
+
+img{
+	position: absolute;
+	bottom:-93px;
+}
+
+
+.sun{
+	background-color: #f1c40f;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	box-shadow: 0 0 20px 5px #ff8c1a;
+	animation: sun 10s forwards;
+}
+
+@keyframes sun{
+	100%{
+		transform: translateY(700px);
+	}
+}
+
+.harry{
+	position: absolute;
+	top: 304px;
+	left:54%;
+	animation: harry 10s forwards;
+}
+
+@keyframes harry{
+	100%{
+		transform: translateX(700px);
+	}
+}
+
+.fight{
+	position: relative;
+	top: 1080px;
+    left: 36%;
+	animation: fight 10s forwards;
+}
+
+
+@keyframes fight{
+	100%{
+		transform: translateY(-300px);
+	}
+}
+
+
+.bird{
+	position: relative;
+	left: 20%;
+	bottom:-148px;
+	animation: bird 10s forwards;
+
+}
+
+@keyframes bird{
+	100%{
+		transform: translateX(-700px);
+	}
+}
+
+
+.mon{
+	position: relative;
+	left: 70%;
+	top:10px;
+	animation: mon 15s forwards;
+
+}
+
+@keyframes mon{
+	100%{
+		transform: translateY(200px);
+	}
+}
+.moon{
+	background-color: transparent;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	box-shadow: -20px 10px white;
+	position: absolute;
+	left: 10%;
+	top: 5%;
+	opacity: 0;
+	animation: night 0.8s 7s forwards;
+}
+
+@keyframes night{
+	100%{
+		opacity:1;
+ }
+}
+.bat{
+	position: relative;
+	left:754%;
+	bottom:-203px;
+	animation: bird 10s forwards;
+
+}
+.bat img{
+	width: 300px;
+	height: 300px;
+}
+
+
+
+@keyframes night,bat{
+	100%{
+		transform: translateX(700px);
+	}
+}
