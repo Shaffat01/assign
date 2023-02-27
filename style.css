@@ -26,6 +26,7 @@ img{
 }
 
 
+
 .sun{
 	background-color: #f1c40f;
 	width: 100px;
@@ -58,8 +59,9 @@ img{
 
 .fight{
 	position: relative;
-	top: 1080px;
+	top: 1060px;
     left: 36%;
+    box-shadow: 10px #000;
 	animation: fight 10s forwards;
 }
 
@@ -86,17 +88,108 @@ img{
 }
 
 
+.car{
+	position: relative;
+	left:0%;
+	top:250px;
+	animation: car 10s forwards;
+
+}
+
+@keyframes car{
+	100%{
+		transform: translateX(1000px);
+	}
+}
+
+.star1{
+	position: relative;
+	left:0%;
+	top:-200px;
+	animation: star1 10s forwards;
+
+}
+@keyframes star1{
+	100%{
+		transform: translateY(300px);
+	}
+}
+
+.star2{
+	position: relative;
+	left:0%;
+	top:-200px;
+	animation: star2 10s forwards;
+
+}
+@keyframes star2{
+	100%{
+		transform: translateY(900px);
+	}
+}
+.star3{
+	position: absolute;
+	left:35%;
+	top:-200px;
+	animation: star3 10s forwards;
+
+}
+@keyframes star3{
+	100%{
+		transform: translateY(400px);
+	}
+}
+
+.end{
+	position: absolute;
+	left:70%;
+	top:-200px;
+	animation: end 10s forwards;
+
+}
+@keyframes end{
+	100%{
+		transform: translateY(650px);
+	}
+}
+.star4{
+	position: relative;
+	left:90%;
+	top:-200px;
+	animation: star4 10s forwards;
+
+}
+@keyframes star4{
+	100%{
+		transform: translateY(900px);
+	}
+}
+
+
+.dem{
+	position: relative;
+	left:-20%;
+	top:250px;
+	animation: dem 10s forwards;
+
+}
+
+@keyframes dem{
+	100%{
+		transform: translateY(1000px);
+	}
+}
 .mon{
 	position: relative;
-	left: 70%;
-	top:10px;
-	animation: mon 15s forwards;
+	left:40%;
+	top:100px;
+	animation: mon 10s forwards;
 
 }
 
 @keyframes mon{
 	100%{
-		transform: translateY(200px);
+		transform: translateY(350px);
 	}
 }
 .moon{
