@@ -27,7 +27,7 @@ img{
 }
 
 audio{
-	display: none;
+/*	display: none;*/
 }
 
 
@@ -172,15 +172,15 @@ audio{
 
 .dem{
 	position: relative;
-	left:-20%;
-	top:-300px;
+	left:-15%;
+	top:-250px;
 	animation: dem 10s forwards;
 
 }
 
 @keyframes dem{
 	100%{
-		transform: translateY(1400px);
+		transform: translateY(1250px);
 	}
 }
 .mon{
